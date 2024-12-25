@@ -1,5 +1,5 @@
 set MESSAGE {Hello, User!}
-set SCRIPT_DIR [file join [file dirname [info script]]]
+set SCRIPT_DIR [file dirname [info script]]
 set CREDENTIALS_FILE [file join $SCRIPT_DIR credentials.txt]
 source [file join $SCRIPT_DIR sender.tcl]
 
